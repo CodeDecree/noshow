@@ -4,7 +4,7 @@ import { models, Report } from "powerbi-client"
 
 export default function Analytics() {
     return <>
-        <PowerBIEmbed
+        {/* <PowerBIEmbed
         embedConfig={{
           type: 'report',   // Supported types: report, dashboard, tile, visual, qna, paginated report and create
           id: '55edc025-1bbc-478e-bf99-7eb18ca6445f',
@@ -38,6 +38,6 @@ export default function Analytics() {
           //@ts-ignore
           window.Report = embeddedReport as Report;
         }}
-      />
+      /> */}
     </>
 }
