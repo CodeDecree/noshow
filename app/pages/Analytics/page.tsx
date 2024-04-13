@@ -2,7 +2,7 @@
 import { PowerBIEmbed } from "powerbi-client-react";
 import { models, Report } from "powerbi-client"
 
-export default function () {
+export default function Analytics() {
     return <>
         <PowerBIEmbed
         embedConfig={{

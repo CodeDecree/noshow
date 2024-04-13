@@ -2,7 +2,7 @@
 import { tree } from "next/dist/build/templates/app-page";
 import { FormEvent, useState } from "react"
 
-export default function () {
+export default function Form() {
 
     const [Name, setName] = useState('');
     const [Age, setAge] = useState('');
